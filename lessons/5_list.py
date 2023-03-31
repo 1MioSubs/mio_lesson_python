@@ -54,3 +54,22 @@ print(del_list_3)
 too_expensive = "del3"
 del_list_3.remove(too_expensive)
 print(del_list_3)
+
+
+sort_list = ['minecraft', 'cs', 'game', 'test', 'race']
+sort_list.sort()
+print(sort_list)
+
+sort_list.sort(reverse=True)
+print(sort_list)
+
+
+cars_list = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars_list)
+
+print(sorted(cars_list))
+
+print(cars_list)
+cars_list.reverse()
+print(cars_list)
+print(len(cars_list))
