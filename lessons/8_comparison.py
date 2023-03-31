@@ -36,12 +36,17 @@ print(age >= 28 or age2 >= 27)
 print("---")
 print('minecraft' in games)
 print('valorand' in games)
+
+
 game_test = 'cs'
 if game_test in games:
 	print('yes - ' + game_test)
 else:
 	print('no - ' + game_test)
+
+
 game_test2 = 'cs-2'
 
 if game_test2 not in games:
 	print('no - ' + game_test2)
+
